@@ -1,4 +1,4 @@
-## 🚀 Zylu Task - Full-Stack Flutter & Node.js Project
+# 🚀 Zylu Task - Full-Stack Flutter & Node.js Project
 A Flutter mobile app that displays a list of vehicles fetched from a Node.js backend. Vehicles are color-coded based on fuel efficiency and pollution levels.
 
 ### 📌 Features
@@ -26,11 +26,19 @@ Fetch a list of vehicles from the backend.
 
 ### 🚀 Technologies Used
 #### Frontend (Flutter)
-Flutter (UI framework)
-Bloc (State Management)
+Flutter (UI framework)\
+Bloc (State Management)\
 Dart HTTP package (API Calls)
 
 #### Backend (Node.js)
-Node.js + Express.js (REST API)
-MongoDB + Mongoose (Database)
+Node.js + Express.js (REST API)\
+MongoDB + Mongoose (Database)\
 Dotenv (Environment variables)
+
+## 📌 Future Enhancements
+ Authentication for vehicle owners.\
+ Pagination for large datasets.\
+ Search & Filters to refine results.\
+ Offline support using local storage.
+
+
