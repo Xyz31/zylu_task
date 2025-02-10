@@ -35,6 +35,27 @@ Node.js + Express.js (REST API)\
 MongoDB + Mongoose (Database)\
 Dotenv (Environment variables)
 
+### 📡 API Endpoints
+
+| Method  | Endpoint            | Description             |
+|---------|---------------------|-------------------------|
+| **GET**  | `/api/vehicles`     | Get all vehicles        |
+| **POST** | `/api/vehicles`     | Add a new vehicle       |
+
+---
+
+### 📌 Sample Request Body (JSON)
+
+### **➤ Add a Vehicle**
+```json
+{
+  "name": "Toyota Prius",
+  "mileage": 18.5,
+  "year": 2021
+}
+```
+
+
 ## 📌 Future Enhancements
  Authentication for vehicle owners.\
  Pagination for large datasets.\
