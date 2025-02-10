@@ -21,6 +21,7 @@ class VehicleItem extends StatelessWidget {
 
     return Card(
       margin: const EdgeInsets.all(8),
+      elevation: 2,
       color: getColor(vehicle.color),
       child: ListTile(
         title: Text(vehicle.name,

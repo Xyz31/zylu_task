@@ -21,14 +21,13 @@ class Vehicle {
   }
 
   static String _determineColor(int mileage, int year) {
-    print('^^^ Before Parsing %%%%%%');
+    // print('^^^ Before Parsing %%%%%%');
     int currentYear = DateTime.now().year;
     int age = currentYear - year;
 
     if (mileage >= 15) {
       return age <= 5 ? 'green' : 'amber';
     }
-    print('^^^ After Parsing %%%%%%');
     return 'red';
   }
 

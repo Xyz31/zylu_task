@@ -1,14 +1,10 @@
 const Vehicle = require("../models/vehicle");
-// const categorizeVehicle = require("../utils/categorize_vehicle");
 
 // Fetch all vehicles with color categorization
 const getVehicles = async (req, res) => {
     try {
         const vehicles = await Vehicle.find();
-        // const categorizedVehicles = vehicles.map((vehicle) => ({
-        //     ...vehicle.toObject(),
-        //     color: categorizeVehicle(vehicle.mileage, vehicle.year),
-        // }));
+        
         res.status(200).json(vehicles);
     } catch (error) {
         res.status(500).json({ message: "Error fetching vehicles" });
