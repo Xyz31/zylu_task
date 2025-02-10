@@ -17,10 +17,12 @@ Fetch a list of vehicles from the backend.
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/ff047802-0150-4689-a36a-45d2b396cbfe" alt="Demo 1" width="300"/></td>
-    <td><img src="https://github.com/user-attachments/assets/5f15baa8-c2b4-4297-9252-2a26a29f44b9" alt="Demo 2" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1153c910-bc61-4ec9-a9f9-819c5a08cea1" alt="Demo 1" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/fb1f7ea6-b41d-48ca-a341-7f4cadfea3c7" alt="Demo 2" width="300"/></td>
   </tr>
 </table>
+
+
 
 
 
