@@ -13,8 +13,8 @@ class VehicleListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Vehicle List App'),
-        backgroundColor: Colors.grey,
+        title: const Text('🚗 Vehicle List App'),
+        backgroundColor: Colors.grey[300],
       ),
       body: BlocBuilder<VehicleBloc, VehicleState>(
         builder: (context, state) {

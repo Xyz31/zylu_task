@@ -19,22 +19,40 @@ class VehicleItem extends StatelessWidget {
       }
     }
 
+    Color coreColor = getColor(vehicle.color);
+
     return Card(
       margin: const EdgeInsets.all(8),
       elevation: 2,
-      color: getColor(vehicle.color),
-      child: ListTile(
-        title: Text(vehicle.name,
-            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-        subtitle: Text(
-          'Mileage: ${vehicle.mileage} km/l\nYear: ${vehicle.year}',
-          style: const TextStyle(
-            color: Colors.white,
+      child: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              coreColor.withOpacity(0.8),
+              coreColor.withOpacity(0.9),
+              coreColor,
+            ],
           ),
+          borderRadius: BorderRadius.circular(4),
         ),
-        trailing: const Icon(
-          Icons.car_rental_outlined,
-          color: Colors.white,
+        child: ListTile(
+          title: Text(
+            vehicle.name,
+            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          ),
+          subtitle: Text(
+            'Mileage: ${vehicle.mileage} km/l\nYear: ${vehicle.year}',
+            style: const TextStyle(
+              color: Colors.white,
+            ),
+          ),
+          trailing: const Icon(
+            Icons.car_rental_outlined,
+            color: Colors.white,
+            size: 26,
+          ),
         ),
       ),
     );
