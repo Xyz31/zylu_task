@@ -17,14 +17,11 @@ Fetch a list of vehicles from the backend.
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/1153c910-bc61-4ec9-a9f9-819c5a08cea1" alt="Demo 1" width="300"/></td>
-    <td><img src="https://github.com/user-attachments/assets/fb1f7ea6-b41d-48ca-a341-7f4cadfea3c7" alt="Demo 2" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/26d36127-ffaa-41c0-ba68-9f0aa46b516d" alt="Demo 1" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/92d89e5a-feae-4511-874b-51075ee60986" alt="Demo 2" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/563780bb-2705-450c-913a-03420dda4c5d" alt="Demo 3" width="300"/></td>
   </tr>
 </table>
-
-
-
-
 
 ### 🚀 Technologies Used
 #### Frontend (Flutter)
